@@ -1,0 +1,77 @@
+/* src/styles/Auth.css */
+
+/* Full-screen gradient background */
+.auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+}
+
+/* Card container */
+.auth-card {
+  background: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 2rem;
+  max-width: 420px;
+  width: 100%;
+}
+
+/* Title styling */
+.auth-card h5 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #4e54c8;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Form controls */
+.auth-card .form-control,
+.auth-card .form-select {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  padding: .75rem 1rem;
+  transition: border-color .2s, box-shadow .2s;
+}
+.auth-card .form-control:focus,
+.auth-card .form-select:focus {
+  border-color: #4e54c8;
+  box-shadow: 0 0 0 0.2rem rgba(78,84,200,0.25);
+}
+
+/* Submit button */
+.auth-card .btn-primary {
+  background-color: #4e54c8;
+  border-color: #4e54c8;
+  border-radius: 0.5rem;
+  padding: .75rem;
+  font-weight: 500;
+  transition: background-color .2s, transform .2s;
+}
+.auth-card .btn-primary:hover {
+  background-color: #3b3f9a;
+  transform: translateY(-1px);
+}
+
+/* Auth footer */
+.auth-footer {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: .9rem;
+}
+.auth-footer a {
+  color: #4e54c8;
+  text-decoration: none;
+  font-weight: 500;
+}
+.auth-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweak */
+@media (max-width: 576px) {
+  .auth-card { padding: 1.5rem; }
+}

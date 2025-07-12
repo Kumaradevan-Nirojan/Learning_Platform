@@ -1,0 +1,277 @@
+backend\controllers\courseController.js
+backend\controllers\evaluationController.js
+backend\middleware\auth.js
+backend\middleware\errorHandler.js
+backend\middleware\upload.js
+backend\middleware\uploadCourseImage.js
+backend\models\Assignment.js
+backend\models\Course.js
+backend\models\DoubtSession.js
+backend\models\Educator.js
+backend\models\Enrollment.js
+backend\models\Evaluation.js
+backend\models\ForumPost.js
+backend\models\Quiz.js
+backend\models\StudyPlan.js
+backend\models\Submission.js
+backend\models\User.js
+backend\routes\assignmentRoutes.js
+backend\routes\avatarUploadRoute.js
+backend\routes\courseRoutes.js
+backend\routes\dashboardRoutes.js
+backend\routes\doubtRoutes.js
+backend\routes\educatorRoutes.js
+backend\routes\enrollmentRoutes.js
+backend\routes\evaluationRoutes.js
+backend\routes\forumRoutes.js
+backend\routes\quizRoutes.js
+backend\routes\studentRoutes.js
+backend\routes\studyPlanRoutes.js
+backend\routes\submissionRoutes.js
+backend\routes\userRoutes.js
+backend\utils\createAvatarUploadDir.js
+backend\utils\csvParser.js
+backend\utils\sendEmail.js
+backend\.env
+backend\index.js
+
+Got it! Here's a well-structured and clean overview of your backend file paths, organized by their purpose and folder. This structure will help you maintain clarity and ease of navigation:
+
+---
+
+# Backend Project Structure
+
+```
+backend/
+backend/
+│
+├── controllers/
+│   ├── courseController.js
+│   ├── evaluationController.js
+│   └── (other controllers if any)
+│
+├── middleware/
+│   ├── auth.js
+│   ├── errorHandler.js
+│   ├── upload.js
+│   └── uploadCourseImage.js
+│
+├── models/
+│   ├── Assignment.js
+│   ├── Course.js
+│   ├── DoubtSession.js
+│   ├── Educator.js
+│   ├── Enrollment.js
+│   ├── Evaluation.js
+│   ├── ForumPost.js
+│   ├── Quiz.js
+│   ├── StudyPlan.js
+│   ├── Submission.js
+│   └── User.js
+│
+├── routes/
+│   ├── assignmentRoutes.js
+│   ├── avatarUploadRoute.js
+│   ├── courseRoutes.js
+│   ├── dashboardRoutes.js
+│   ├── doubtRoutes.js
+│   ├── educatorRoutes.js
+│   ├── enrollmentRoutes.js
+│   ├── evaluationRoutes.js
+│   ├── forumRoutes.js
+│   ├── quizRoutes.js
+│   ├── studentRoutes.js
+│   ├── studyPlanRoutes.js
+│   ├── submissionRoutes.js
+│   └── userRoutes.js
+│
+├── utils/
+│   ├── createAvatarUploadDir.js
+│   ├── csvParser.js
+│   └── sendEmail.js
+│
+├── .env
+├── index.js
+
+
+### Notes:
+
+Notes:
+controllers/ contain the logic to handle requests for specific resources.
+
+middleware/ includes authorization, error handling, and file upload handling.
+
+models/ define your Mongoose schemas for MongoDB collections.
+
+routes/ define API endpoints, routing requests to controllers.
+
+utils/ contain utility/helper functions.
+
+.env stores environment variables.
+
+index.js is the main server entry point.
+
+If you want, I can help generate or refactor specific files inside this structure, or provide a brief explanation for any part of the project. Just let me know!
+
+
+front end
+frontend\src\components\AssignmentForm.js
+frontend\src\components\AssignmentSubmission.js
+frontend\src\components\CourseForm.js
+frontend\src\components\EditEducator.js
+frontend\src\components\EditProfileModal.js
+frontend\src\components\EducatorForm.js
+frontend\src\components\EducatorList.js
+frontend\src\components\Footer.js
+frontend\src\components\InputField.js
+frontend\src\components\Layout.js
+frontend\src\components\LearnerEvaluation.js
+frontend\src\components\Navbar.css
+frontend\src\components\Navbar.js
+frontend\src\components\ProtectedRoute.js
+frontend\src\components\QuizForm.js
+frontend\src\components\QuizList.js
+frontend\src\components\QuizListByCourse.js
+frontend\src\components\Sidebar.css
+frontend\src\components\Sidebar.js
+frontend\src\components\StudentForm.js
+frontend\src\components\StudyPlanForm.js
+frontend\src\components\StudyPlanList.js
+frontend\src\pages\About.js
+frontend\src\pages\AccessDenied.jsx
+frontend\src\pages\AssignmentPage.js
+frontend\src\pages\ChatRoom.js
+frontend\src\pages\Contact.js
+frontend\src\pages\CoordinatorCoursePage.js
+frontend\src\pages\CoordinatorDashboard.css
+frontend\src\pages\CoordinatorDashboard.js
+frontend\src\pages\CoordinatorPage.js
+frontend\src\pages\CoursePage.js
+frontend\src\pages\Courses.js
+frontend\src\pages\CreateSessionForm.js
+frontend\src\pages\Dashboard.css
+frontend\src\pages\Dashboard.js
+frontend\src\pages\EditEducator.js
+frontend\src\pages\EducatorDashboard.css
+frontend\src\pages\EducatorDashboard.js
+frontend\src\pages\EducatorEditProfile.js
+frontend\src\pages\EducatorPage.js
+frontend\src\pages\EvaluationPage.js
+frontend\src\pages\ForumPage.js
+frontend\src\pages\Home.css
+frontend\src\pages\Home.js
+frontend\src\pages\LearnerDashboard.css
+frontend\src\pages\LearnerDashboard.jsx
+frontend\src\pages\LiveSessions.js
+frontend\src\pages\Login.css
+frontend\src\pages\Login.js
+frontend\src\pages\MyCourses.js
+frontend\src\pages\NotFound.js
+frontend\src\pages\PlanPage.js
+frontend\src\pages\QuizPage.js
+frontend\src\pages\Register.css
+frontend\src\pages\Register.js
+frontend\src\pages\StudentPage.js
+frontend\src\pages\SubmissionPage.js
+frontend\src\pages\UnenrollLearner.js
+frontend\src\pages\ViewEducator.js
+frontend\src\App.css
+frontend\src\App.js
+frontend\src\index.css
+frontend\src\index.js
+This is front end structure, please gothrough and let me know i will upload the files
+
+
+frontend/
+└── src/
+    ├── components/
+    │   ├── AssignmentForm.js
+    │   ├── AssignmentSubmission.js
+    │   ├── CourseForm.js
+    │   ├── EditEducator.js
+    │   ├── EditProfileModal.js
+    │   ├── EducatorForm.js
+    │   ├── EducatorList.js
+    │   ├── Footer.js
+    │   ├── InputField.js
+    │   ├── Layout.js
+    │   ├── LearnerEvaluation.js
+    │   ├── Navbar.css
+    │   ├── Navbar.js
+    │   ├── ProtectedRoute.js
+    │   ├── QuizForm.js
+    │   ├── QuizList.js
+    │   ├── QuizListByCourse.js
+    │   ├── Sidebar.css
+    │   ├── Sidebar.js
+    │   ├── StudentForm.js
+    │   ├── StudyPlanForm.js
+    │   ├── StudyPlanList.js
+    │
+    ├── pages/
+    │   ├── About.js
+    │   ├── AccessDenied.jsx
+    │   ├── AssignmentPage.js
+    │   ├── ChatRoom.js
+    │   ├── Contact.js
+    │   ├── CoordinatorCoursePage.js
+    │   ├── CoordinatorDashboard.css
+    │   ├── CoordinatorDashboard.js
+    │   ├── CoordinatorPage.js
+    │   ├── CoursePage.js
+    │   ├── Courses.js
+    │   ├── CreateSessionForm.js
+    │   ├── Dashboard.css
+    │   ├── Dashboard.js
+    │   ├── EditEducator.js
+    │   ├── EducatorDashboard.css
+    │   ├── EducatorDashboard.js
+    │   ├── EducatorEditProfile.js
+    │   ├── EducatorPage.js
+    │   ├── EvaluationPage.js
+    │   ├── ForumPage.js
+    │   ├── Home.css
+    │   ├── Home.js
+    │   ├── LearnerDashboard.css
+    │   ├── LearnerDashboard.jsx
+    │   ├── LiveSessions.js
+    │   ├── Login.css
+    │   ├── Login.js
+    │   ├── MyCourses.js
+    │   ├── NotFound.js
+    │   ├── PlanPage.js
+    │   ├── QuizPage.js
+    │   ├── Register.css
+    │   ├── Register.js
+    │   ├── StudentPage.js
+    │   ├── SubmissionPage.js
+    │   ├── UnenrollLearner.js
+    │   ├── ViewEducator.js
+    │
+    ├── App.css
+    ├── App.js
+    ├── index.css
+    └── index.js
+
+
+Observations
+Components folder has reusable UI parts and forms — looks well organized.
+
+Pages folder covers different routes/pages of the app, including dashboards for different roles, login/register, courses, forums, etc.
+
+Separate CSS files for components and pages — good modularity.
+
+Key routing and layout files are present (App.js, ProtectedRoute.js, Layout.js).
+
+You have dedicated components for user/educator profile editing, quizzes, study plans, chat room, etc., indicating a fully featured platform.
+
+Mix of .js and .jsx extensions — make sure your build config supports both (usually no problem with Create React App or similar).
+
+Ready to Proceed
+This looks like a complete and well-structured React frontend for your learning management system.
+
+Please start uploading the frontend files you want me to review or work on.
+
+You can upload all at once or in batches as convenient.
+
+If you want help with something specific (e.g., connect frontend to backend, fix bugs, add features), please mention that too.

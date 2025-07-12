@@ -1,0 +1,16 @@
+.navbar {
+  background: var(--primary);
+  box-shadow: var(--shadow-soft);
+  padding: var(--space-sm) var(--space);
+}
+.navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+.navbar .btn-outline-primary {
+  color: #fff;
+  border-color: #ffffff;
+}
+.navbar .btn-outline-primary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
